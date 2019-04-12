@@ -1,0 +1,25 @@
+{
+  "name": "react-talk-boilerplate",
+  "version": "1.0.0",
+  "description": "React profiler tool playground",
+  "main": "./src/index.js",
+  "scripts": {
+    "dev": "parcel ./public/index.html",
+    "build": "parcel build ./public/index.html/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "alexhoma <alexcm.14@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "parcel-bundler": "^1.10.3"
+  }
+}
